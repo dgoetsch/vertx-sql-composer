@@ -1,0 +1,8 @@
+dependencies {
+    compile "io.vertx:vertx-core:$vertxVersion"
+    compile "io.vertx:vertx-jdbc-client:$vertxVersion"
+
+    compile project(':sql')
+    compile project(':publisher')
+    compile project(':consumer')
+}
